@@ -36,16 +36,16 @@ function showWeatherReport(response){
         let todayDate=new Date();
         date.innerText=dateManage(todayDate);
         if(weather.textContent=="Clear"){
-            document.body.style.backgroundImage="url('sky-83132_960_720.jpg')";
+            document.body.style.backgroundImage="url('/images/sky-83132_960_720.jpg')";
         }
         else if(weather.textContent=="Haze"){
-            document.body.style.backgroundImage="url('haze.jpg')";
+            document.body.style.backgroundImage="url('/images/haze.jpg')";
         }
         else if(weather.textContent=="Sunny"){
-            document.body.style.backgroundImage="url('sunny.jpg')";
+            document.body.style.backgroundImage="url('/images/sunny.jpg')";
         }
         else if(weather.textContent=="Clouds"){
-           document.body.style.backgroundImage="url('cloudy.jpg')";
+           document.body.style.backgroundImage="url('/images/cloudy.jpg')";
         }
 
 }
